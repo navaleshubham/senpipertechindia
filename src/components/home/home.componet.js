@@ -123,7 +123,7 @@ export default class home extends Component {
             console.log(di)
             doc.push(di)
             localStorage.setItem('feedbacks', JSON.stringify(doc))
-            alert('Thanks for the Feedback!')
+            alert('Thank you for completing the information!')
             this.data = doc
             window.history.go(0)
         }
