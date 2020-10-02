@@ -17,7 +17,7 @@ a{
 }
 .form-height{
     min-height: 400px !important;
-    max-height: 800px !important;
+    /* max-height: 1000px !important; */
     background-color: white;
 }
 .col-sm-12{
@@ -31,4 +31,17 @@ a{
 
 .tab-pane{
     overflow-x: visible !important;
+}
+@media(min-width:700px){
+    .namewidth{
+        width: 97.8% !important;
+    }
+}
+@media(max-width:1000px){
+    .namewidth{
+        width: 95% !important;
+    }
+}
+label{
+    padding-bottom: 1em;
 }
